@@ -1,2 +1,2 @@
 #!/bin/bash
-nohup gunicorn app:app &
+gunicorn --chdir /home/ubuntu/flaskapp  app:app --daemon
